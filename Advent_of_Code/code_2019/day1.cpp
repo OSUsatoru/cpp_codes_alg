@@ -10,7 +10,7 @@ const int MOD=1e9+7;
 
 void Solve()
 {
-    cout << "test_push";
+
 
 }
 int main()
