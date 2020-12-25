@@ -11,20 +11,34 @@ const int MOD=1e9+7;
 void Solve()
 {
     ifstream ifs("input.txt");
+    if (ifs.fail()) {
+        cerr << "Failed to open file." << endl;
+        exit(1);
+    }
     vector<int> inputs;
-    int n,ans,sum;
-    while(cin >> n){
+    int n;
+    while(ifs >> n){
         inputs.push_back(n);
+    }
+
+    ofstream ofs("output.txt");
+    if (!ofs) {
+        cerr << "error" << std::endl;
+        exit(1);
     }
     sort(inputs.begin(),inputs.end());
     for(int i = 0; i < inputs.size()-1; ++i){
         for(int j = i+1; j < inputs.size(); ++j){
             if(inputs[i]+inputs[j] == 2020){
-                cout << inputs[i] * inputs[j];
+                ofs << inputs[i] * inputs[j] << endl;
+            }else if(inputs[i]+inputs[j] > 2020){
                 break;
             }
         }
     }
+
+    ifs.close();
+
 
 }
 int main()
