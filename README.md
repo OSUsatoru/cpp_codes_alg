@@ -8,10 +8,10 @@ Discord: satoru#2984
 [Advent of Code](https://adventofcode.com/)
 ## osu_class_code
 
-* cs_325
-These codes are for group assignments in CS 325. I do not want other students copy mine, so I do not discribe what kinds of problem they are. Send me a message if you want to get the discription of them.
+* cs_325</br>
+These codes are for group assignments in CS 325.</br> I do not want other students copy mine, so I do not discribe what kinds of problem they are. Send me a message if you want to get the discription of them.
 
-* cs_271
+* cs_271</br>
 Masm codes for cs 271.(*have not pushed yet*)
 ## Future contents
 
