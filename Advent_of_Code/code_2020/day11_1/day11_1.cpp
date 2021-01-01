@@ -10,7 +10,7 @@ const int MOD=1e9+7;
 /*
     (x,y): (1,-1)(1,0)(1,1)(0,-1)(0,1)(-1,-1)(-1,0)(-1,1)
     except: (0,0)
-    check these and count occupied seat_1s,
+    check these and count occupied seat_1,
 */
 
 void Solve()
