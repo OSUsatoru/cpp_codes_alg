@@ -9,7 +9,7 @@ Discord: satoru#2984
 ## osu_class_code
 
 * algo_probrems</br>
-These codes are original codes written by me to share answers to group members so that we can rewrite in Python</br>
+These codes are original codes in C++ written by me to share answers with group members so that we can rewrite in Python. Each file includes documentation to describe algorithm problems</br>
 
 
 ## Future contents
